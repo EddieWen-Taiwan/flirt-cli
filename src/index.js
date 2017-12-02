@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const data = require('./data.js');
 
 const print = (message, self = false) => {
