@@ -18,7 +18,8 @@
     "clean": "rm -rf ./dist",
     "predist": "npm run clean",
     "dist": "babel ./src -d ./dist",
-    "release": "standard-version"
+    "release": "standard-version",
+    "prepublish": "npm run dist"
   },
   "author": "Eddie Wen <eddiewen.tw@gmail.com> (http://eddiewen.me)",
   "license": "MIT",
