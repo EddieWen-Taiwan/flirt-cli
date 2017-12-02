@@ -13,7 +13,8 @@
   "scripts": {
     "clean": "rm -rf ./dist",
     "predist": "npm run clean",
-    "dist": "babel ./src -d ./dist"
+    "dist": "babel ./src -d ./dist",
+    "release": "standard-version"
   },
   "author": "Eddie Wen <eddiewen.tw@gmail.com> (http://eddiewen.me)",
   "license": "MIT",
