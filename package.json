@@ -1,0 +1,15 @@
+{
+  "name": "flirt",
+  "version": "1.0.0",
+  "description": "Show flirty conversations to help you to get he/she",
+  "main": "index.js",
+  "keywords": [
+    "flirty",
+    "converstion"
+  ],
+  "bin": {
+    "flirt": "./index.js"
+  },
+  "author": "Eddie Wen <eddiewen.tw@gmail.com> (http://eddiewen.me)",
+  "license": "MIT"
+}
