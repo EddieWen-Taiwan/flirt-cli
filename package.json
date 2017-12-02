@@ -10,6 +10,11 @@
   "bin": {
     "flirt": "./dist/index.js"
   },
+  "scripts": {
+    "clean": "rm -rf ./dist",
+	"predist": "npm run clean",
+    "dist": "babel ./src -d ./dist"
+  },
   "author": "Eddie Wen <eddiewen.tw@gmail.com> (http://eddiewen.me)",
   "license": "MIT",
   "devDependencies": {
