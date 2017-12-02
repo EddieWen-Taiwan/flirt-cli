@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "Show flirty conversations to help you to get he/she",
   "main": "./src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@github.com:EddieWen-Taiwan/flirt-cli.git"
+  },
   "keywords": [
     "flirty",
     "converstion"
