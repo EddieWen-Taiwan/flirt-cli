@@ -20,6 +20,7 @@
     "flirt": "./dist/index.js"
   },
   "scripts": {
+    "test": "jest",
     "clean": "rm -rf ./dist",
     "predist": "npm run clean",
     "dist": "babel ./src -d ./dist",
@@ -32,6 +33,7 @@
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-minify": "^0.2.0",
+    "jest": "^21.2.1",
     "standard-version": "^4.2.0"
   }
 }
