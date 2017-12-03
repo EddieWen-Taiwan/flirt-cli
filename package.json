@@ -20,6 +20,7 @@
     "flirt": "./dist/index.js"
   },
   "scripts": {
+    "lint": "eslint src/*.js --config ./.eslintrc.json",
     "test": "jest",
     "clean": "rm -rf ./dist",
     "predist": "npm run clean",
