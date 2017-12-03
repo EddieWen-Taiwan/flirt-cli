@@ -20,6 +20,7 @@
     "flirt": "./dist/index.js"
   },
   "scripts": {
+    "test": "jest",
     "clean": "rm -rf ./dist",
     "predist": "npm run clean",
     "dist": "babel ./src -d ./dist",
