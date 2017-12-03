@@ -3,15 +3,15 @@ const packageJson = require('../package.json');
 const support = {
 	version: {
 		commands: ['--version', '-v'],
-		note: '',
+		note: 'version number',
 	},
 	repo: {
 		commands: '--repo',
-		note: '',
+		note: 'git repository link',
 	},
 	report: {
 		commands: '--report',
-		note: '',
+		note: 'how to report a bug',
 	},
 };
 
@@ -32,5 +32,20 @@ module.exports = (optionArray) => {
 		process.stdout.write(
 			`Open an issue at <${packageJson.bugs.url}>,\nor mail to <${packageJson.bugs.email}>\n`,
 		);
+	}
+
+	if (optionArray[0] === '--help') {
+		process.stdout.write('Options:\n\n');
+
+		Object.values(support).forEach((value) => {
+			process.stdout.write(`\t${
+				typeof value.commands === 'string' ?
+					value.commands
+					:
+					value.commands.join(', ')
+			}\t\t${
+				value.note
+			}\n`);
+		});
 	}
 };
