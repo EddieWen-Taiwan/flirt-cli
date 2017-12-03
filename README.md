@@ -1,4 +1,6 @@
-# flirt-cli [![npm version](https://badge.fury.io/js/flirt.svg)](https://badge.fury.io/js/flirt)
+# flirt-cli
+
+[![npm version](https://badge.fury.io/js/flirt.svg)](https://badge.fury.io/js/flirt) ![circle-ci status](https://circleci.com/gh/EddieWen-Taiwan/flirt-cli.svg?style=shield&circle-token=d2b47ef3ee6c854aec8e86cc3058cc78c613048a)
 
 > 前情提要：最近辦公室被帶起了一股撩妹幹話風，加上之前看到的 [howhow-cli](https://github.com/WeiChiaChang/howhow-cli)，就決定來做個類似的工具來玩玩囉。
 
