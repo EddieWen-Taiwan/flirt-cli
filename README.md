@@ -13,8 +13,34 @@ $ yarn global add flirt
 
 ### 如何使用
 
-目前唯一支援
+隨機出現幹話對話
 
 ```bash
 $ flirt
+```
+
+##### 輔助使用
+
+顯示版本
+
+```bash
+$ flirt --version
+```
+
+取得專案連結
+
+```bash
+$ flirt --repo
+```
+
+如何回報問題
+
+```bash
+$ flirt --report
+```
+
+以上都可以在幫助指令中找到
+
+```bash
+$ flirt --help
 ```
