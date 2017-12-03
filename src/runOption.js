@@ -15,6 +15,13 @@ const support = {
 	},
 };
 
+const padString = (text, expectedLength) => (
+	text.length < expectedLength ?
+		`${text}${' '.repeat(expectedLength - text.length)}`
+		:
+		text
+);
+
 module.exports = (optionArray) => {
 	if (support.version.commands.includes(optionArray[0])) {
 		process.stdout.write(`Current version: ${packageJson.version}\n`);
@@ -38,12 +45,15 @@ module.exports = (optionArray) => {
 		process.stdout.write('Options:\n\n');
 
 		Object.values(support).forEach((value) => {
-			process.stdout.write(`\t${
-				typeof value.commands === 'string' ?
-					value.commands
-					:
-					value.commands.join(', ')
-			}\t\t${
+			process.stdout.write(`  ${
+				padString(
+					typeof value.commands === 'string' ?
+						value.commands
+						:
+						value.commands.join(', '),
+					24,
+				)
+			}${
 				value.note
 			}\n`);
 		});
