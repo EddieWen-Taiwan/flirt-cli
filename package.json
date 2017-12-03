@@ -3,6 +3,11 @@
   "version": "1.0.1",
   "description": "Show flirty conversations to help you to get he/she",
   "main": "./src/index.js",
+  "homepage": "https://github.com/EddieWen-Taiwan/flirt-cli",
+  "bugs": {
+    "url": "https://github.com/EddieWen-Taiwan/flirt-cli/issues",
+	"email": "eddiewen.tw@gmail.com"
+  },
   "repository": {
     "type": "git",
     "url": "ssh://git@github.com:EddieWen-Taiwan/flirt-cli.git"
