@@ -25,3 +25,9 @@ jobs:
       - run:
           name: Test
           command: yarn run test
+
+workflows:
+  version: 2
+  test-flow:
+    jobs:
+      - test
