@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
-const data = require('./data.js');
-const runOption = require('./runOption.js');
+import data from './data';
+import runOption from './runOption';
 
 /**
  * command with options

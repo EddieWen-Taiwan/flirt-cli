@@ -1,4 +1,4 @@
-module.exports = [
+export default [
 	[
 		{ text: '你知道我本來姓什麼嗎？', self: true },
 		{ text: '我本來姓王，但遇見你我就幸福了。', self: true },
