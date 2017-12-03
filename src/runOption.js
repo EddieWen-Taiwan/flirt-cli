@@ -33,7 +33,7 @@ module.exports = (optionArray) => {
 
 	if (optionArray[0] === support.repo.commands) {
 		process.stdout.write(
-			`\x1b[38;5;8mVisit <\x1b[0m${packageJson.homepage}\x1b[38;5;8m>\x1b[0m\n`
+			`\x1b[38;5;8mVisit <\x1b[0m${packageJson.homepage}\x1b[38;5;8m>\x1b[0m\n`,
 		);
 
 		return;
